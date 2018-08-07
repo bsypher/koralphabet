@@ -9,3 +9,23 @@ footer {
 h1 {
 	padding: 20px;
 }
+button {
+  width: 50px;
+  height:40px;
+  position: relative;
+}
+button > .middle {
+  position: absolute;
+  left: calc(50% - 5px);
+  top: calc(50% - 5px);
+  width: 10px;
+  height: 10px;
+}
+
+button > .top-left {
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  width: 10px;
+  height: 10px;
+}
