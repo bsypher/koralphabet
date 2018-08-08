@@ -20,6 +20,7 @@ button > .middle {
   top: calc(50% - 5px);
   width: 10px;
   height: 10px;
+  color: blue;
 }
 
 button > .top-left {
@@ -28,4 +29,22 @@ button > .top-left {
   top: 1px;
   width: 10px;
   height: 10px;
+}
+#shift {
+	position: relative;
+	width: 60px;
+	height:  40px;
+
+}
+#enter {
+	position: relative;
+	height: 40px;
+	width: 80px;
+}
+#caps {
+	position: realtive; 
+	top: 10px;
+	height: 40px;
+	width: 70px;
+
 }
