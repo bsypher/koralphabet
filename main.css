@@ -42,9 +42,14 @@ button > .top-left {
 	width: 80px;
 }
 #caps {
-	position: realtive; 
+	position: relative; 
 	top: 10px;
 	height: 40px;
 	width: 70px;
+
+}
+#space {
+	height: 40px;
+	width: 130px;
 
 }
