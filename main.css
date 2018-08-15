@@ -13,6 +13,9 @@ button {
   width: 50px;
   height:40px;
   position: relative;
+  display: inline-block;
+  vertical-align: top;
+
 }
 button > .middle {
   position: absolute;
@@ -43,7 +46,7 @@ button > .top-left {
 }
 #caps {
 	position: relative; 
-	top: 10px;
+	
 	height: 40px;
 	width: 70px;
 
@@ -51,5 +54,11 @@ button > .top-left {
 #space {
 	height: 40px;
 	width: 130px;
+
+}
+
+#bottomrow { 
+	position: relative;
+	padding: 20px;
 
 }
